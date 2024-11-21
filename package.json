@@ -1,0 +1,21 @@
+{
+  "name": "financial-news-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "article-extraction-clean copy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@extractus/article-extractor": "^8.0.16",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "node-fetch": "^3.3.2",
+    "pdfjs-dist": "^4.8.69",
+    "serpapi": "^2.1.0",
+    "stopword": "^3.1.1"
+  }
+}
