@@ -19,6 +19,27 @@ To run this project, ensure you have the following installed:
 
 ---
 
+## **Project Structure**
+
+```graphql
+financial-news-scraper/
+├── src/
+│   ├── serpapi-news-search.js     # Script to scrape news articles
+│   ├── article-extraction-clean.js # Script to process and clean articles
+├── config/
+│   └── config.js                  # Stores API key (excluded from Git)
+├── data/
+│   ├── financial_news_data.csv    # Output from serpapi-news-search.js
+│   ├── scraped_financial_articles.csv # Output from article-extraction-clean.js
+├── .gitignore                     # Ensures sensitive files and unnecessary directories are not tracked
+├── README.md                      # Documentation for the project
+├── package.json                   # Project metadata and dependencies
+├── package-lock.json              # Dependency lock file
+
+```
+
+---
+
 ## Setup Instructions
 
 ### Step 1: Clone the Repository
@@ -26,7 +47,7 @@ To run this project, ensure you have the following installed:
 Clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/<your-username>/financial-news-scraper.git
+git clone https://github.com/saahas-parise/financial-news-scraper.git
 cd financial-news-scraper
 ```
 
